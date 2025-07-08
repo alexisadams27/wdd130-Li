@@ -1,15 +1,14 @@
-/* Import Inter font */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #F8F9FA; /* Accent 1 */
-  color: #343A40; /* Accent 2 */
+  background-color: #F8F9FA; 
+  color: #343A40; 
   margin: 0;
   padding: 0;
 }
 
-/* HEADER */
 header {
   display: flex;
   justify-content: space-between;
@@ -31,15 +30,14 @@ nav a {
 }
 
 nav a:hover {
-  color: #0056B3; /* Secondary */
+  color: #0056B3; 
 }
 
-/* MAIN SECTION */
+
 main {
   padding: 40px;
 }
 
-/* Hero Section */
 main > section:first-of-type {
   text-align: center;
   padding-bottom: 40px;
@@ -71,14 +69,12 @@ main h2 {
   background-color: #0056B3;
 }
 
-/* Info Section */
 section p {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 20px;
 }
 
-/* Image Sections */
 section img {
   max-width: 100%;
   height: auto;
@@ -87,7 +83,6 @@ section img {
   border-radius: 8px;
 }
 
-/* Learning Section */
 section > div {
   background-color: white;
   padding: 20px;
