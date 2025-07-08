@@ -1,0 +1,112 @@
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F8F9FA; /* Accent 1 */
+  color: #343A40; /* Accent 2 */
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+header img {
+  height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007BFF;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #0056B3; /* Secondary */
+}
+
+/* MAIN SECTION */
+main {
+  padding: 40px;
+}
+
+/* Hero Section */
+main > section:first-of-type {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+main h1 {
+  font-size: 2.5rem;
+  color: #0056B3;
+  margin-bottom: 10px;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  color: #343A40;
+}
+
+.button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056B3;
+}
+
+/* Info Section */
+section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Image Sections */
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+/* Learning Section */
+section > div {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+section h3 {
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+section a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
